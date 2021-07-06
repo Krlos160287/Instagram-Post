@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+.post {
+    border-width: 5px;
+    border-color: greenyellow;
+    width: 50%;
+    margin: auto;
+    height:auto;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header{
+    background-color: white;
+    display:flex;
+    align-items: center;
+}
+.fah{
+    margin: 5px;
+}
+.title {
+    margin:5px;
+}
+.point{
+    margin-left: auto !important;
+    margin:5px;
+    float:right !important;
+}
+.mid{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.metal{
+    width: 100%;
+}
+.bot{
+    background-color: white;
+    margin-top:5px;
+    width: 100%;
+}
+.inst{
+    background-color: white;
+    width: auto;
+    margin:5px;
+    display: flex;
+}
+.left{
+    float:left;
+    margin:5px;
+}
+.right{
+    float:right;
+    margin:5px;
+    margin-left:auto;
+}
