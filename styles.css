@@ -1,40 +1,38 @@
-body {
-    background-color: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+
+
 .post {
-    border-width: 5px;
-    border-color: greenyellow;
+   border: 3px solid black;
     width: 50%;
     margin: auto;
     height:auto;
     background-color: white;
-    margin-top: 50px;
-    margin-bottom: 50px;
+
 }
 .header{
     background-color: white;
     display:flex;
     align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .fah{
     margin: 5px;
+    font-size: 30px;
 }
 .title {
     margin:5px;
+    font-size: 30px;
 }
 .point{
     margin-left: auto !important;
-    margin:5px;
+    padding-top:1,5rem;
     float:right !important;
-}
-.mid{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    font-size: 30px;
 }
 .metal{
     width: 100%;
+    margin: 0 !important;
 }
 .bot{
     background-color: white;
@@ -50,9 +48,18 @@ body {
 .left{
     float:left;
     margin:5px;
+    font-size: 30px;
 }
 .right{
     float:right;
     margin:5px;
     margin-left:auto;
+    font-size: 30px;
+}
+.bloh{
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0px 10px 10px 10px;
+}
+.blah{
+    margin: 0px 10px 0px 10px;
 }
